@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linda:UIDraggablePanel xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:linda="com.mutado.linda.controls.DraggablePanel.*">
+	<mx:Style source="style.css" />
+</linda:UIDraggablePanel>

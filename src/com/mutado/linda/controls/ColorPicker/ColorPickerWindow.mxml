@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linda:UIColorPickerWindow xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:linda="com.mutado.linda.controls.ColorPicker.*" 
+	layout="absolute" width="370" height="500"
+	maxWidth="370" maxHeight="500"
+	minWidth="370" minHeight="500">
+	
+	<mx:Style source="style-win.css" />
+	
+</linda:UIColorPickerWindow>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linda:UIFlexColorPicker xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:linda="com.mutado.linda.controls.ColorPicker.*">
+	<mx:Style source="style.css" />
+</linda:UIFlexColorPicker> 

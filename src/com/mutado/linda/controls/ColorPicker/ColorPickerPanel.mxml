@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linda:UIColorPickerPanel xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:linda="com.mutado.linda.controls.ColorPicker.*" 
+	horizontalScrollPolicy="off"
+	width="370" height="510">
+	
+	<mx:Style source="style-panel.css" />
+	
+</linda:UIColorPickerPanel>

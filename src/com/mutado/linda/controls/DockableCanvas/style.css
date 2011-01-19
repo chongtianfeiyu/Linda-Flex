@@ -1,0 +1,44 @@
+/** DockableCanvas styles **/
+
+.vbox {
+	vertical-gap: 0;
+}
+
+.top {
+	background-image: Embed("top.png");
+	background-size: "100%";
+}
+
+.arrowleft {
+	background-image: Embed("arrow-left.png");
+}
+
+.arrowright {
+	background-image: Embed("arrow-right.png");
+}
+
+.left {
+	border-style: solid;
+	border-color: #434343;
+	border-sides: "right";
+}
+
+.right {
+	border-style: solid;
+	border-color: #434343;
+	border-sides: "left";
+}
+
+.tabs {
+	background-color: #fff000;
+	background-image: Embed("tabs.png");
+	background-size: "100%";
+	border-style: solid;
+	border-color: #b0b0b0;
+	border-sides: "left", "right";
+	horizontal-gap: 1;
+}
+
+.content {
+	background-color: #dedede;
+}

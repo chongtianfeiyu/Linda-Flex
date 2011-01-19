@@ -1,0 +1,15 @@
+.tabNormal {
+	background-image: Embed("background.png");
+	background-size: "100%";
+	font-weight: bold;
+}
+
+.tabSelected {
+	background-image: Embed("background_selected.png");
+	background-size: "100%";
+	font-weight: bold;
+}
+
+.tabClose {
+	icon-image: Embed("close.png");
+}

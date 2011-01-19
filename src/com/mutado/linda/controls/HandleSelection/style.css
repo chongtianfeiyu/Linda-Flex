@@ -1,0 +1,11 @@
+.handleStyle {
+	color: #000000;
+	font-family: Arial;
+	text-align: center;
+	font-size: 9;
+	border-color: #00fffc;
+	border-style: solid;
+	border-thickness: 1;
+	border-shadow-color: #2286e3;
+	border-shadow-alpha: .4;
+}

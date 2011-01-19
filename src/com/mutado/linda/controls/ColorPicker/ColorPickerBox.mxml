@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linda:UIColorPickerBox xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:linda="com.mutado.linda.controls.ColorPicker.*" 
+	xmlns:ShadowedLabel="com.mutado.linda.controls.ShadowedLabel.*"
+	xmlns:HSlider="com.mutado.linda.controls.HSlider.*" 
+	xmlns:BaseButton="com.mutado.linda.controls.BaseButton.*"
+	width="100%" height="100%">
+	
+	<mx:Style source="style.css" />
+	
+	<mx:VBox width="100%" height="100%" verticalGap="0" horizontalAlign="center">
+		
+		<mx:Canvas id="$spectrumCanvas" width="300" height="300" clipContent="false">
+			<mx:Canvas id="$spectrumContainer" x="{ $spectrumCanvas.width / 2 }" y="{ $spectrumCanvas.height / 2 }" styleName="spectrumContainer" clipContent="false">
+				<mx:Canvas id="$spectrum" clipContent="false"/>
+				<mx:Canvas id="$glow" width="100%" height="100%" styleName="spectrumContainerGlow" />
+				<mx:Canvas id="$pointer" width="70" height="70">
+					<mx:Canvas width="100%" height="100%" styleName="spectrumPointerColor" />
+					<mx:Canvas id="$selectedColor" width="100%" height="100%" styleName="spectrumPointerColor" blendMode="multiply"/>
+					<mx:Canvas width="100%" height="100%" styleName="spectrumPointer" />
+				</mx:Canvas>
+			</mx:Canvas>
+		</mx:Canvas>
+		
+		<mx:Spacer height="20" />
+		
+		<ShadowedLabel:ShadowedLabel width="100%" text="HUE" styleName="sliderLabel" />
+		<HSlider:HSlider id="$hSlider" width="100%" styleName="hSelector"/>
+		
+		<mx:Spacer height="10" />
+		
+		<mx:HBox width="100%" height="100%" horizontalGap="10">
+		
+			<mx:VBox verticalGap="0" width="50%">
+				<ShadowedLabel:ShadowedLabel width="100%" text="SATURATION" styleName="sliderLabel"/>
+				<HSlider:HSlider id="$sSlider" width="100%" styleName="sSelector"/>	
+			</mx:VBox>
+			
+			<mx:VBox verticalGap="0" width="50%">
+				<ShadowedLabel:ShadowedLabel width="100%" text="BRIGHTNESS" styleName="sliderLabel"/>
+				<HSlider:HSlider id="$bSlider" width="100%" styleName="bSelector"/>
+			</mx:VBox>	
+			
+		</mx:HBox>
+		
+		<mx:Spacer height="20" />
+		
+		<mx:HBox width="100%" height="100%" horizontalGap="10">
+	
+			<BaseButton:BaseButton id="$buttonOk" multiline="true" width="100%" label="OK" styleName="colorPickerButtons"/>
+			<BaseButton:BaseButton id="$buttonCancel" multiline="true" width="100%" label="CANCEL" styleName="colorPickerButtons"/>	
+			<BaseButton:BaseButton id="$buttonReset" multiline="true" width="100%" label="RESET" styleName="colorPickerButtons"/>	
+			
+		</mx:HBox>
+					
+	</mx:VBox>
+	
+</linda:UIColorPickerBox> 

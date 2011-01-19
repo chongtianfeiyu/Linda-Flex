@@ -1,0 +1,15 @@
+.sidebarToggle {
+	background-size: "100%";
+	background-image: Embed("background_selected.png");
+	color: #ffffff;
+	custom-shadow-color: #000000;
+	custom-shadow-alpha: 0.1;	
+}
+
+.sidebarOver {
+	background-size: "100%";
+	background-image: Embed("background_over.png");
+	color: #ffffff;
+	custom-shadow-color: #000000;
+	custom-shadow-alpha: 0.1; 	
+}

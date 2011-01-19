@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linda:UIHSlider xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:linda="com.mutado.linda.controls.HSlider.*"
+	trackSkin="{ SliderTrack }" 
+	sliderThumbClass="{ SliderPointer }">
+	<mx:Script>
+		<![CDATA[
+			import com.mutado.linda.skins.slider.SliderTrack;
+			import com.mutado.linda.skins.slider.SliderPointer;
+		]]>
+	</mx:Script>
+</linda:UIHSlider>

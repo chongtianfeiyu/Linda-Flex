@@ -1,0 +1,7 @@
+.menuOver {
+	background-size: "100%";
+	background-image: Embed("background_over.png");
+	color: #ffffff;
+	custom-shadow-color: #000000;
+	custom-shadow-alpha: 0.1; 	
+}

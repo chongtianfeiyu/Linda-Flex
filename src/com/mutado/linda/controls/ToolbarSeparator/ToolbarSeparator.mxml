@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="2" horizontalGap="0">
+	<mx:Spacer width="6%" />
+	<mx:HRule width="80%" styleName="divider" alpha=".55" />
+	<mx:Spacer width="14%" />	
+</mx:HBox>

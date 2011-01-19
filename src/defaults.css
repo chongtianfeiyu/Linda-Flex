@@ -1,0 +1,250 @@
+/** Defaults Styles **/
+
+VSlider, HSlider {
+	thumb-offset: 0;
+	thumb-skin: Embed(source="assets/assets.swf", symbol="linda.Empty");	
+}
+
+HDividedBox, VDividedBox {
+	vertical-divider-cursor: Embed(source="assets/assets.swf", symbol="linda.cursor.Vertical");
+	horizontal-divider-cursor: Embed(source="assets/assets.swf", symbol="linda.cursor.Horizontal");
+	divider-affordance: -10;	
+}
+
+AppBar { 
+	background-alpha: 1;
+	drop-shadow-enabled: false;
+	corner-radius: 0;
+	highlight-alphas: 0, 0;
+	border-style: none;
+	padding-bottom: 0;
+	padding-top: 0;
+	app-bar-customs-style: "defaultAppBar";
+}
+
+AppBarButton {
+	color: #000000;
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: 0.4;
+	font-size: 12;
+	font-weight: bold;
+	icon-spacing: -8;
+}
+
+DockableCanvas {
+	background-color: #7f7f7f;
+	dock-box-style-name: "vbox";
+	dock-top-style-name: "top";
+	dock-tabs-style-name: "tabs";
+	content-style-name: "content";
+}
+
+HDock {
+	background-color: #7f7f7f;
+}
+
+VDock {
+	background-color: #7f7f7f;
+}
+
+ToolbarButton {
+	button-toggle-style: "toolbarToggle"; 	
+}
+
+TabButton {
+	color: #000000;
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: 0.4;
+	font-size: 10;
+	font-weight: bold;
+	background-color: #90908f;
+	border-style: solid;
+	border-color: #c3c3c3;
+	border-sides: "right";
+	padding-top: 3;
+	padding-left: 7;
+	padding-right: 7;
+	border-shadow-color: #000000;
+	border-shadow-alpha: .4;
+	icon-spacing: 15;
+	tab-button-style-name: "tabNormal";
+	tab-button-selected-style-name: "tabSelected";
+	tab-close-style-name: "tabClose";
+	tab-vertical-overlap: 1;
+	tab-close-padding-right: 8;
+}
+
+TabbedPanel {
+	border-style: solid;
+	border-color: #b0b0b0;
+	border-sides: "left", "right";	
+}
+
+OverlayMenu {
+	vertical-gap: 3;
+	horizontal-gap: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 5;
+	padding-bottom: 5;
+	background-color: #f0efef;
+	background-alpha: .95;
+	border-color: #000000;
+	border-alpha: .2;
+	border-thickness-bottom: 1;
+	border-thickness-top: 1;
+	border-thickness-left: 1;
+	border-thickness-right: 1;
+	header-height: 0;
+	corner-radius: 0;
+	drop-shadow-enabled: false;
+	custom-shadow-color: #000000;
+	custom-shadow-alpha: 0.4;
+	highlight-alphas: 0, 0;
+}
+
+MenuButton {
+	icon-spacing: 6;
+	padding-left: 10;
+	padding-right: 10;
+	color: #000000;
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: 0.4;
+	font-size: 12;
+	padding-top: 8;
+	padding-bottom: 8;
+	button-over-style: "menuOver";
+}
+
+SidebarBox {
+	disabled-overlay-alpha: 0;
+	padding-bottom: 8;	
+	padding-top: 15;	
+	padding-left: 8;	
+	padding-right: 8;	
+}
+
+BaseButton {
+	font-size: 10;
+	font-weight: bold;
+	color: #000000;
+	corner-radius: 4;
+	border-style: solid;
+	border-color: #868686;
+	padding-top: 2;
+	padding-left: 8;
+	padding-right: 8;
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: .4;
+	gradient-style-name: "gradient";
+	text-align: center;
+}
+
+ShadowedLabel {
+	color: #000000;
+	font-size: 12;
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: .4;	
+}
+
+SidebarTile {
+	horizontal-gap: 5;
+	background-color: #ffffff;
+	border-color: #939393;
+	border-thickness: 1;
+	border-alpha: 1;
+	border-style: solid;
+	border-sides: "left", "right", "top", "bottom";
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: .4;
+	padding-bottom: 10;
+	padding-top: 10;
+	padding-left: 10;
+	padding-right: 10;
+}
+
+SidebarCanvas {
+	disabled-overlay-alpha: 0;
+	background-color: #ffffff;
+	border-color: #939393;
+	border-thickness: 1;
+	border-alpha: 1;
+	border-style: solid;
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: .4;
+}
+
+SidebarList {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	vertical-gap: 0;
+}
+
+SidebarListButton {
+	icon-spacing: 10;
+	padding-top: 5;
+	padding-bottom: 3;
+	padding-left: 5;
+	padding-right: 5;
+	button-toggle-style: "sidebarToggle";
+	button-over-style: "sidebarOver";
+}
+
+ThumbButton {
+	custom-shadow-color: #000000;
+	custom-shadow-alpha: .4;
+	thumb-style-name: "thumbButton";
+}
+
+FlexColorPicker, AIRColorPicker {
+	color-picker-style-name: "colorPicker";
+}
+
+EyeDropper {
+	eye-dropper-style-name: "eyeDropper";
+	eye-dropper-drop-style-name: "eyeDropperDrop";
+	eye-dropper-drop-mask-style-name: "eyeDropperDropMask";
+	button-toggle-style: "toolbarToggle";
+}
+
+ColorPickerBox {
+	color-picker-style-name: "colorPickerBox";
+}
+
+/** Separators */
+
+GenericVSeparator {
+	vertical-gap: 0;
+	separator-style-name: "genericVSeparator";
+}
+
+GenericHSeparator {
+	horizontal-gap: 0;
+	separator-style-name: "genericHSeparator";
+}
+
+AppBarSeparator {
+	padding-top: 6;
+	padding-bottom: 6;
+	separator-style-name: "defaultBarSeparator";
+}
+
+ToolbarSeparator {
+	padding-left: 4;
+	padding-right: 4;
+	separator-style-name: "defaultToolbarSeparator";	
+}
+
+DraggablePanel {
+	border-style: solid;
+	border-color: #b7babc;
+	border-alpha: 0;
+	border-thickness: 0;
+	corner-radius: 0;
+	background-alpha: 0;
+	background-color: #ffffff;
+	drop-shadow-enabled: false;
+}
+	

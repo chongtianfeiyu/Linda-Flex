@@ -1,0 +1,8 @@
+/** ColorPicker styles **/
+
+.colorPickerWindow {
+	border-color: #202020;
+	border-style: solid;
+	background-image: Embed("background.png");
+	background-size: "100%";
+}

@@ -1,0 +1,81 @@
+/** ColorPicker styles **/
+
+.colorPicker {
+	icon-image: Embed("color.png");	
+	color-picker-rectangle: 18, 14, 3, 20;
+	color-picker-panel-style-name: "colorPickerPanel";
+	color-picker-window-style-name: "colorPickerWindow";
+}
+
+.colorPickerBox {
+	padding-top: 20;
+	padding-bottom: 20;
+	padding-right: 20;
+	padding-left: 20;
+}
+
+.spectrumContainer {
+	drop-shadow-enabled: true;
+}
+
+.spectrumContainerGlow {
+	background-image: Embed("glow.png");
+	background-size: "100%";
+}
+
+.spectrumPointer {
+	background-image: Embed("target.png");
+}
+
+.spectrumPointerColor {
+	background-image: Embed("target_color.png");
+}
+
+.hSelector {
+	data-tip-precision: 0;	
+	tick-length: 0;	
+}
+
+.bSelector {
+	data-tip-precision: 0;	
+	tick-length: 0;
+}
+
+.sSelector {
+	data-tip-precision: 0;
+	tick-length: 0;
+}
+
+.sliderLabel {
+	font-size: 10;
+	color: #333333;
+	font-weight: bold;
+	custom-shadow-color: #ffffff;
+	custom-shadow-alpha: .2;
+}
+
+.selectedColor {
+	border-style: solid;
+	border-color: #323232;
+	border-thickness: 2;
+}
+
+.colorPickerButtons {
+	font-size: 12;
+	background-color: #999898;
+	font-weight: bold;
+}
+
+/** EyeDropper styles **/
+
+.eyeDropper {
+	icon-image: Embed("eyedropper.png");
+}
+
+.eyeDropperDrop {
+	background-image: Embed("dropper_overlay.png");
+}
+
+.eyeDropperDropMask {
+	background-image: Embed("dropper_mask.png");
+}

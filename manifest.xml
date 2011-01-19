@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<!--
+
+	MUTADO
+	All Rights Reserved.
+
+	NOTICE: Mutado permits you to use, modify, and distribute this file
+	in accordance with the terms of the license agreement accompanying it.
+
+-->
+
+<componentPackage>
+
+	<component id="AppBar" class="com.mutado.linda.controls.AppBar.AppBar"/>
+	<component id="AppBarButton" class="com.mutado.linda.controls.AppBarButton.AppBarButton"/>
+	<component id="AppBarSeparator" class="com.mutado.linda.controls.AppBarSeparator.AppBarSeparator"/>
+	<component id="BaseButton" class="com.mutado.linda.controls.BaseButton.BaseButton"/>
+	<component id="DockableCanvas" class="com.mutado.linda.controls.DockableCanvas.DockableCanvas"/>
+	<component id="GenericButton" class="com.mutado.linda.controls.GenericButton.GenericButton"/>
+	<component id="GenericHSeparator" class="com.mutado.linda.controls.GenericHSeparator.GenericHSeparator"/>
+	<component id="GenericVSeparator" class="com.mutado.linda.controls.GenericVSeparator.GenericVSeparator"/>
+	<component id="HDock" class="com.mutado.linda.controls.HDock.HDock"/>
+	<component id="IconButton" class="com.mutado.linda.controls.IconButton.IconButton"/>
+	<component id="MenuButton" class="com.mutado.linda.controls.MenuButton.MenuButton"/>
+	<component id="OverlayMenu" class="com.mutado.linda.controls.OverlayMenu.OverlayMenu"/>
+	<component id="ShadowedLabel" class="com.mutado.linda.controls.ShadowedLabel.ShadowedLabel"/>
+	<component id="SidebarBox" class="com.mutado.linda.controls.SidebarBox.SidebarBox"/>
+	<component id="SidebarCanvas" class="com.mutado.linda.controls.SidebarCanvas.SidebarCanvas"/>
+	<component id="SidebarList" class="com.mutado.linda.controls.SidebarList.SidebarList"/>
+	<component id="SidebarListButton" class="com.mutado.linda.controls.SidebarListButton.SidebarListButton"/>
+	<component id="SidebarTile" class="com.mutado.linda.controls.SidebarTile.SidebarTile"/>
+	<component id="SmoothImage" class="com.mutado.linda.controls.SmoothImage.SmoothImage"/>
+	<component id="TabbedPanel" class="com.mutado.linda.controls.TabbedPanel.TabbedPanel"/>
+	<component id="TabButton" class="com.mutado.linda.controls.TabButton.TabButton"/>
+	<component id="ThumbButton" class="com.mutado.linda.controls.ThumbButton.ThumbButton"/>
+	<component id="ToggleBar" class="com.mutado.linda.controls.ToggleBar.ToggleBar"/>
+	<component id="ToolbarButton" class="com.mutado.linda.controls.ToolbarButton.ToolbarButton"/>
+	<component id="ToolbarSeparator" class="com.mutado.linda.controls.ToolbarSeparator.ToolbarSeparator"/>
+	<component id="VDock" class="com.mutado.linda.controls.VDock.VDock"/>
+	<component id="FlexColorPicker" class="com.mutado.linda.controls.ColorPicker.FlexColorPicker"/>
+	<component id="AIRColorPicker" class="com.mutado.linda.controls.ColorPicker.AIRColorPicker"/>
+	<component id="EyeDropper" class="com.mutado.linda.controls.ColorPicker.EyeDropper"/>
+	<component id="DraggablePanel" class="com.mutado.linda.controls.DraggablePanel.DraggablePanel"/>
+	<component id="VSlider" class="com.mutado.linda.controls.VSlider.VSlider"/>
+	<component id="HSlider" class="com.mutado.linda.controls.HSlider.HSlider"/>
+	<component id="DashedSelection" class="com.mutado.linda.controls.DashedSelection.DashedSelection"/>
+	<component id="HandleSelection" class="com.mutado.linda.controls.HandleSelection.HandleSelection"/>
+	
+</componentPackage>
